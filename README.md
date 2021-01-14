@@ -28,7 +28,7 @@ npm run ghost:prod
 * Minimizes all javascript and CSS, purges Tailwind classes via postCSS
 
 # Status
-Ghost Shopify is a work in progress. Current state:
+Ghost Shopify is a work in progress. 
 
 - [ ] Define organizational structure
 - [ ] Build all skeleton templates, sections, snippets, etc
