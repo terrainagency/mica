@@ -27,7 +27,12 @@ npm run ghost:prod
 
 * Minimizes all javascript and CSS, purges Tailwind classes via postCSS
 
+# Working with Shopify Themekit
+
+Make sure to only download themes into Ghost's /public folder. 
+
 # Status
+
 Ghost Shopify is a work in progress. 
 
 - [ ] Define organizational structure

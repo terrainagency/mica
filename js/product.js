@@ -1,0 +1,1 @@
+// Javascript for product pages

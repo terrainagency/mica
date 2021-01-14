@@ -1,0 +1,16 @@
+<!-- 
+    origin: icon.liquid 
+    usage: Returns a block of code based on case value passed through the render statement
+    render: {% render 'icon' | case: 'name-of-icon' %}
+    author: Terrain Agency
+    authorURL: https://terrainagency.com
+-->
+
+{% case icon %}
+  {% when 'verified' %}
+    <!-- do something -->
+
+  {% else %}
+     Error: Icon not available. Please update icon.liquid to include the icon you are looking for, or double check for typos.
+     
+{% endcase %}
