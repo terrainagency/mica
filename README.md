@@ -27,6 +27,12 @@ npm run ghost:prod
 
 * Minimizes all javascript and CSS, purges Tailwind classes via postCSS
 
-# Templates
+# Status
+Ghost Shopify is a work in progress. Current state:
 
-Templates are used as scaffolding for content found in sections. Templates each contain their primary functionality loops.
+- [ ] Define organizational structure
+- [ ] Build all skeleton templates, sections, snippets, etc
+- [ ] Config file: used to allow users to define the structure of a Ghost Shopify base
+- [ ] Configure dev environment
+- [ ] Create npm init ghost-shopify **or** create a form that builds based on settings 
+
