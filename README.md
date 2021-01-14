@@ -1,2 +1,28 @@
 # ghost-shopify
-An agnostic Shopify skeleton configured for GSAP and Tailwind
+Ghost is a development environment build off of an agnostic Shopify skeleton. 
+
+# Usage
+Ghost is designed to be used for GSAP and Tailwind based Shopify themes.
+
+# Installation (coming soon)
+
+Ghost comes with Tailwind and postCSS, along with a set of NPM build functions.
+
+```
+npm init ghost-shopify
+```
+
+# Functions
+
+```
+npm run ghost:build
+```
+
+* Compiles all javascript imports to a single javascript file
+* Compiles Tailwind source to a single css file
+
+```
+npm run ghost:prod
+```
+
+* Minimizes all javascript and CSS, purges Tailwind classes via postCSS
