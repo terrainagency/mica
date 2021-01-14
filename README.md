@@ -31,6 +31,9 @@ npm run ghost:prod
 
 Make sure to only download themes into Ghost's /public folder. 
 
+# Resources
+https://www.shopify.com/partners/shopify-cheat-sheet
+
 # Status
 
 Ghost Shopify is a work in progress. 
