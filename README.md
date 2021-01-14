@@ -26,3 +26,7 @@ npm run ghost:prod
 ```
 
 * Minimizes all javascript and CSS, purges Tailwind classes via postCSS
+
+# Templates
+
+Templates are used as scaffolding for content found in sections. Templates each contain their primary functionality loops.
