@@ -4,28 +4,22 @@ Ghost is a development environment build off of an agnostic Shopify skeleton.
 # Usage
 Ghost is designed to be used for GSAP and Tailwind based Shopify themes.
 
-# Installation (coming soon)
-
-Ghost comes with Tailwind and postCSS, along with a set of NPM build functions.
+# Installation (current state)
 
 ```
-npm init ghost-shopify
+$ npm install --save-dev gulp fs-path gulp-footer gulp-header gulp-postcss gulp-sourcemaps tailwindcss postcss-import autoprefixer gulp-imagemin gulp-concat gulp-terser gulp-cssnano
 ```
 
 # Functions
 
 ```
-npm run ghost:build
+$ gulp
 ```
 
 * Compiles all javascript imports to a single javascript file
+* Compiles all liquid files from layout, templates, sections, and snippets from the src directory to public.
+* Optimizes all images in src/images and compiles them to public/assets
 * Compiles Tailwind source to a single css file
-
-```
-npm run ghost:prod
-```
-
-* Minimizes all javascript and CSS, purges Tailwind classes via postCSS
 
 # Working with Shopify Themekit
 

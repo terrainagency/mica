@@ -1,0 +1,19 @@
+<!-- 
+    section: page-header.liquid
+    usage: creates a global scope header for pages
+    author: Terrain Agency
+    authorURL: https://terrainagency.com
+-->
+
+<header class="page">
+    <article class="row">
+      <div class="subtitle barlow">{{subtitle}}</div>
+      <h1 class="l col-12">{{title}}</h1>
+      {% if description != blank %}
+        <div class="description col-12 col-l-6 col-xl-5">
+          <p>{{description}}<p>
+        </div>
+      {% else %}
+      {% endif %}
+    </article>
+  </header>
